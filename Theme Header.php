@@ -15,7 +15,7 @@
 	
 	<body <?php body_class(); ?>>
 	
-		<div class="navigation section no-padding bg-dark">
+		<div class="navigation section no-padding bg-pink">
 		
 			<div class="navigation-inner section-inner">
 			
@@ -61,7 +61,7 @@
 			
 		</div> <!-- /navigation -->
 		
-		<div class="header section small-padding bg-dark bg-image" style="background-image: url(<?php if (get_header_image() != '') : ?><?php header_image(); ?><?php else : ?><?php echo get_template_directory_uri() . '/images/header.jpg'; ?><?php endif; ?>);">
+		<div class="header section small-padding bg-pink bg-image" style="background-image: url(<?php if (get_header_image() != '') : ?><?php header_image(); ?><?php else : ?><?php echo get_template_directory_uri() . '/images/header.jpg'; ?><?php endif; ?>);">
 		
 			<div class="cover"></div>
 			

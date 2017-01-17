@@ -1,0 +1,28 @@
+/*
+You can add your own CSS here.
+
+Click the help icon above to learn more.
+*/
+
+.blog-description {
+	color: #fff;
+}
+
+.credits span {
+	display: none;
+}
+
+.bg-pink { background-color: #ff4980; }
+
+.main-menu ul a { color:#fff;}
+.main-menu > li > a {color:#fff;}
+
+
+
+:hov
+
+.cls
+
+.main-menu > .has-children > a::after, .main-menu > .page_item_has_children > a::after { color: #fff;}
+
+.main-menu > .has-children > a::after, .main-menu > .page_item_has_children > a { color: #fff;}
