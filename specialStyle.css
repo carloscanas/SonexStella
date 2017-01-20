@@ -4,25 +4,71 @@ You can add your own CSS here.
 Click the help icon above to learn more.
 */
 
+/* Colors
+
+Pink - ff4980
+
+Mint -  13C4A5
+
+Darker Pink - d8416f
+
+*/
+
+.bg-pink { background-color: #ff4980; }
+.bg-darkPink { background-color: #d8416f; }
+
+/** HEADER **/
+
 .blog-description {
 	color: #fff;
+}
+
+
+.main-menu ul a { color:#fff;}
+.main-menu > li > a {color:#fff;}
+
+.main-menu > .has-children > a::after, .main-menu > .page_item_has_children > a::after { 
+	color: #fff;
+	border-top-color: #fff;
+}
+
+
+.main-menu > li:before {
+	color:#fff;
+}
+
+.main-menu ul li {
+	background: #ff4980;
+}
+
+.main-menu ul li a {
+	color: #fff;
+}
+
+.main-menu > li > ul:before {
+	border-bottom-color: #fff;
+}
+.search-toggle {
+	opacity: 1;
+}
+
+
+/** FOOTER **/
+
+.footer .widget-content p {
+    line-height: 160%;
+    color: #fff;
 }
 
 .credits span {
 	display: none;
 }
 
-.bg-pink { background-color: #ff4980; }
+.credits p {
+	color: #fff;
+}
 
-.main-menu ul a { color:#fff;}
-.main-menu > li > a {color:#fff;}
+.credits a {
+	color: #fff;
+}
 
-
-
-:hov
-
-.cls
-
-.main-menu > .has-children > a::after, .main-menu > .page_item_has_children > a::after { color: #fff;}
-
-.main-menu > .has-children > a::after, .main-menu > .page_item_has_children > a { color: #fff;}

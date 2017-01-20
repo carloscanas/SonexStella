@@ -1,4 +1,4 @@
-<div class="footer section medium-padding bg-graphite">
+<div class="footer section medium-padding bg-pink">
 	
 	<div class="section-inner row">
 	
@@ -116,7 +116,7 @@
 
 </div> <!-- /footer -->
 
-<div class="credits section bg-dark small-padding">
+<div class="credits section bg-darkPink small-padding">
 
 	<div class="credits-inner section-inner">
 
