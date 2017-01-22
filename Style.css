@@ -135,8 +135,8 @@ img {
 	color: #FFF;
 }
 
-::-webkit-input-placeholder { color: #999; }
-:-ms-input-placeholder { color: #999; }
+::-webkit-input-placeholder { color: #fff; }
+:-ms-input-placeholder { color: #fff; }
 
 
 /* Transitions --------------------------------------- */
@@ -311,7 +311,7 @@ body a {
 
 .blog-title {
 	font-family: 'Pacifico', sans-serif;
-	font-size: 2.25em;
+	font-size: 2.55em;
 	text-align: center;
 	text-shadow: 1px 1px 2px rgba(0,0,0,0.25);
 }
@@ -321,10 +321,10 @@ body a {
 .blog-title a:hover { color: #13C4A5; }
 
 .blog-description {
-	font-size: 1.1em;
+	font-size: 1.5em;
 	line-height: 110%;
 	font-weight: 400;
-	color: #999;
+	color: #fff;
 	margin: 20px 0 0 0;
 	text-align: center;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.25);
@@ -340,7 +340,7 @@ body a {
 	background-size: 24px auto;
 	-webkit-opacity: 0.5;
 	-moz-opacity: 0.5;
-	opacity: 0.5;
+	opacity: 1;
 }
 
 .search-toggle.active {  
@@ -383,6 +383,14 @@ body a {
 
 .header-search-block .searchsubmit { display: none; }
 
+/* -------------------------------------------------------------------------------- */
+/*	Custom Colours
+/* -------------------------------------------------------------------------------- */
+
+
+.bg-pink { background-color: #ff4980; }
+.bg-darkPink { background-color: #d8416f; }
+
 
 /* -------------------------------------------------------------------------------- */
 /*	4. Navigation
@@ -408,7 +416,7 @@ body a {
 	margin-top: -9px;
 	margin-right: -3px;
 	font-size: 16px;
-	color: #444;
+	color: #fff;
 	font-weight: 300;
 	z-index: 1000;
 }
@@ -419,7 +427,7 @@ body a {
 	display: block;
 	padding: 27px;
 	font-size: 0.85em;
-	color: #999;
+	color: #fff;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-weight: 700;
@@ -435,7 +443,7 @@ body a {
 	content: "";
 	display: block;
 	border: 5px solid transparent;
-	border-top-color: #999;
+	border-top-color: #fff;
 	position: absolute;
 	z-index: 1001;
 	right: 29px;
@@ -487,7 +495,7 @@ body a {
 	left: 50%;
 	margin-left: -10px;
 	border: 10px solid transparent;
-	border-bottom-color: #2d2d2d;
+	border-bottom-color: #fff;
 }
 
 .main-menu ul li {
@@ -517,7 +525,7 @@ body a {
 .main-menu ul li { 	
 	display: block;
 	width: 240px; 
-	background: #2d2d2d;
+	background: #ff4980;
 }
 
 .main-menu ul a {
@@ -526,10 +534,10 @@ body a {
 	padding: 20px;
 	margin: 0;
 	line-height: 130%;
-	color: #999;
+	color: #fff;
 }
 
-.main-menu ul a:hover { color: #fff; }
+.main-menu ul a:hover { color: #13C4A5; }
 
 .main-menu li:hover > ul {
 	-webkit-opacity: 1;
@@ -623,7 +631,12 @@ body a {
 
 .featured-media a { overflow: hidden; }
 
-.featured-media a img { margin: 0 auto; }
+.featured-media a img { 
+	margin: 0 auto;
+	max-width:350px;
+	max-height:350px; 
+}
+
 
 .featured-media a:hover img { 
 	-webkit-transform: scale(1.1); 
@@ -2349,6 +2362,10 @@ p.form-submit { margin-top: 30px; }
 
 .widget-content p + p { margin-top: 1em; }
 
+.subscribe-text p {
+	color: #fff;
+}
+
 
 /* Widgets --------------------------------------- */
 
@@ -2391,17 +2408,17 @@ p.form-submit { margin-top: 30px; }
 
 .credits p {
 	font-family: 'Roboto Slab', sans-serif;
-	color: #767676; 
+	color: #fff; 
 	font-size: 0.8rem;
 	text-transform: uppercase;
 	font-weight: 700;
 	letter-spacing: 1px;
 }
 
-.credits a { color: #ccc; }
+.credits a { color: #fff; }
 
 .credits a:hover { 
-	color: #ccc; 
+	color: #13C4A5; 
 	text-decoration: underline;
 }
 
@@ -2528,7 +2545,7 @@ img#wpstats { display: none; } /* Silly WordPress stats */
 		width: 26px;
 		height: 3px;
 		margin-top: 5px;
-		background: #8E8E8E;
+		background: #ffffff;
 		border-radius: 1px;
 	}
 	
@@ -2545,11 +2562,11 @@ img#wpstats { display: none; } /* Silly WordPress stats */
 		padding: 25px 5%;
 		font-size: 0.9em;
 		text-transform: uppercase;
-		color: #999;
+		color: #fff;
 		letter-spacing: 1px;
 	}
 	
-	.mobile-menu a:hover { color: #fff; } 
+	.mobile-menu a:hover { color: #13C4A5; } 
 	
 	.mobile-menu ul a { padding-left: 10%; } 
 	.mobile-menu ul ul a { padding-left: 15%; } 
@@ -2817,7 +2834,7 @@ img#wpstats { display: none; } /* Silly WordPress stats */
 		width: 100%; 
 		float: none;
 		padding: 40px 0 0 0;
-		border-top: 4px solid #333;
+		border-top: 0px solid #333;
 		margin: 40px 0 0 0;
 	}
 	

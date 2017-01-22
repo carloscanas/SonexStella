@@ -65,7 +65,7 @@
 		
 			<div class="cover"></div>
 			
-			<div class="header-search-block bg-graphite hidden">
+			<div class="header-search-block bg-pink hidden">
 			
 				<?php get_search_form(); ?>
 			
@@ -102,7 +102,7 @@
 		</div> <!-- /header -->
 		
 		
-		<div class="mobile-navigation section bg-graphite no-padding hidden">
+		<div class="mobile-navigation section bg-pink no-padding hidden">
 					
 			<ul class="mobile-menu">
 			
