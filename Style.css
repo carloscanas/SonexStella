@@ -624,7 +624,10 @@ body a {
 
 .featured-media a,
 .featured-media img,
-.featured-media iframe { display: block; }
+.featured-media iframe { 
+	display: block;
+	margin: auto;
+}
 
 .featured-media iframe,
 .featured-media object { border: none; margin: 0; }
@@ -633,8 +636,9 @@ body a {
 
 .featured-media a img { 
 	margin: 0 auto;
-	max-width:350px;
-	max-height:350px; 
+	max-width:360px;
+	max-height:360px; 
+	object-fit: cover;
 }
 
 
